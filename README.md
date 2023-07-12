@@ -46,4 +46,5 @@ pip install torch==1.13.0+cu117 --extra-index-url https://download.pytorch.org/w
 pip install 'git+https://github.com/facebookresearch/detectron2.git'
 ```
 
+If this is tedious in your setup or you want to maximize performance, we recommend starting from a PyTorch container like [nvcr.io/nvidia/pytorch:23.04-py3](https://docs.nvidia.com/deeplearning/frameworks/pytorch-release-notes/rel-23-04.html#rel-23-04).
 
