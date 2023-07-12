@@ -51,3 +51,5 @@ If you want to maximize performance or this is tedious in your setup, we recomme
 ```bash
 cd contrib/MaskDINO/maskdino/modeling/pixel_decoder/ops && sh make.sh
 ```
+
+Now the training notebook *model_training.ipynb* is usable to finetune task-specific detectors. This notebook also demonstrates how to manipulate object annotations and mix the provided datasets in a reasonable manner using the dataset utility functions in *helpers/*.
