@@ -20,7 +20,7 @@ chmod +x helpers/download_data.sh
 ./helpers/download_data.sh
 ```
 
-If you want to load and explore the data using the overview notebook, we recommend starting with a fresh conda environment using python 3.9 and default packages
+If you want to load and explore the data using the overview notebook *dataset_overview.ipynb*, we recommend starting with a fresh conda environment using python 3.9 and default packages
 
 ```bash
 conda create -n athome23_detection python=3.9 anaconda && conda activate athome23_detection
