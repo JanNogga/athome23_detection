@@ -43,7 +43,7 @@ pip install torch==1.13.0+cu117 torchvision==0.14.0+cu117 --extra-index-url http
 ```
 
 ```bash
-pip install 'git+https://github.com/facebookresearch/detectron2.git'
+pip install 'git+https://github.com/facebookresearch/detectron2.git' shapely timm
 ```
 
 If you want to maximize performance or this is tedious in your setup, we recommend starting from a PyTorch container like [nvcr.io/nvidia/pytorch:23.04-py3](https://docs.nvidia.com/deeplearning/frameworks/pytorch-release-notes/rel-23-04.html#rel-23-04) instead. Finally, compile modules required for MaskDINO's pixel decoder:
