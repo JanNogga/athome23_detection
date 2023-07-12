@@ -36,7 +36,7 @@ Over all datasets, some objects might be inconsistently or incorrectly annotated
 
 ## Object Detectors
 
-We use detectron2 to finetune MaskDINO pretrained on COCO, yielding a detector for a given RoboCup@Home task in ~30 minutes. To setup detectron2, it is important that the installed version of PyTorch matches your CUDA version. In our case, we are using CUDA 11.7 and thus use
+We use detectron2 to finetune MaskDINO pretrained on COCO, yielding a detector for a given RoboCup@Home task in ~30 minutes. To set up detectron2, it is important that the installed version of PyTorch matches your CUDA version. In our case, we are using CUDA 11.7 and thus use
 
 ```bash
 pip install torch==1.13.0+cu117 torchvision==0.14.0+cu117 --extra-index-url https://download.pytorch.org/whl/cu117
