@@ -162,4 +162,4 @@ cython_debug/
 # other
 data/
 output/
-contrib/MaskDINO
+contrib/MaskDINO/
