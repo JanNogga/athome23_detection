@@ -1,0 +1,3 @@
+[submodule "contrib/MaskDINO"]
+	path = contrib/MaskDINO
+	url = https://github.com/IDEA-Research/MaskDINO.git
