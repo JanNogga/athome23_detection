@@ -2,7 +2,7 @@
 Datasets and training scripts to reproduce the object detection system used by team NimbRo at RoboCup@Home 2023.
 
 ## Datasets
-The datasets contain 30742 annotated object instances in 3130 frames. Bounding boxes and segmentation masks are available to any dataloader using the COCO format. To download everything, just clone this repository and use the helper script.
+The 21 datasets contain 30742 annotated object instances in 3130 frames. Bounding boxes and segmentation masks are available to any dataloader using the COCO format. To download everything, just clone this repository and use the helper script.
 
 ```bash
 git clone --recursive --depth 1 https://github.com/JanNogga/athome23_detection.git
