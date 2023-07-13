@@ -1,7 +1,8 @@
 # athome23_detection
 Datasets and training scripts to reproduce the object detection system used by team NimbRo at RoboCup@Home 2023.
 
-![Model Predictions](https://github.com/JanNogga/athome23_detection/assets/31764993/e2f3e9fc-e0d5-4b26-abaa-59a43e76d1cd)
+
+![Model Predictions](https://github.com/JanNogga/athome23_detection/assets/31764993/fbb58e28-f278-4564-a751-23d316a1080e)
 
 
 ## Datasets
