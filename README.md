@@ -23,7 +23,7 @@ chmod +x helpers/download_data.sh
 ./helpers/download_data.sh
 ```
 
-To load and explore the data using the UI in the overview notebook *dataset_overview.ipynb*, we recommend starting with a fresh conda environment using python 3.9 and default packages:
+To load and explore the data using the [fiftyone](https://docs.voxel51.com/) UI in the overview notebook *dataset_overview.ipynb*, we recommend starting with a fresh conda environment using python 3.9 and default packages:
 
 ```bash
 conda create -n athome23_detection python=3.9 anaconda && conda activate athome23_detection
@@ -39,7 +39,7 @@ Across all datasets, some objects might be inconsistently or incorrectly annotat
 
 ## Object Detectors
 
-We use detectron2 to finetune MaskDINO pretrained on COCO. To set up detectron2, it is important that the installed version of PyTorch matches the CUDA version. In our case, we are using CUDA 11.7 and thus use
+We use [detectron2](https://detectron2.readthedocs.io/en/latest/) to finetune MaskDINO pretrained on COCO. To set up detectron2, it is important that the installed version of PyTorch matches the CUDA version. In our case, we are using CUDA 11.7 and thus use
 
 ```bash
 pip install torch==1.13.0+cu117 torchvision==0.14.0+cu117 --extra-index-url https://download.pytorch.org/whl/cu117
