@@ -39,7 +39,7 @@ Across all datasets, some objects might be inconsistently or incorrectly annotat
 
 ## Object Detectors
 
-We use [detectron2](https://detectron2.readthedocs.io/en/latest/) to finetune MaskDINO pretrained on COCO. To set up detectron2, it is important that the installed version of PyTorch matches the CUDA version. In our case, we are using CUDA 11.7 and thus use
+We use [detectron2](https://detectron2.readthedocs.io/en/latest/) to finetune [MaskDINO](https://github.com/IDEA-Research/MaskDINO) pretrained on COCO. To set up detectron2, it is important that the installed version of PyTorch matches the CUDA version. In our case, we are using CUDA 11.7 and thus use
 
 ```bash
 pip install torch==1.13.0+cu117 torchvision==0.14.0+cu117 --extra-index-url https://download.pytorch.org/whl/cu117
