@@ -36,7 +36,7 @@ Then install a few required packages:
 pip install fiftyone pillow==9.5.0 pycocotools==2.0.6
 ```
 
-Across all datasets, some objects might be inconsistently or incorrectly annotated. Our datasets are readily modified as you see fit in CVAT by using the CVAT backup files provided in *data/robocup_bordeaux_2023/robocup_data/cvat_backups* after running the download script.
+Across all datasets, some objects might be inconsistently or incorrectly annotated. Our datasets are readily modified as you see fit in [CVAT](https://www.cvat.ai/) by using the CVAT backup files provided in *data/robocup_bordeaux_2023/robocup_data/cvat_backups* after running the download script.
 
 ## Object Detectors
 
